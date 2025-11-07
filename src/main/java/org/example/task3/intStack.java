@@ -2,11 +2,11 @@ package org.example.task3;
 
 import java.util.NoSuchElementException;
 
-public class IntStack {
+public class intStack {
     private int[] data;
     private int size;
 
-    public IntStack() {
+    public intStack() {
         this.data = new int[8];
         this.size = 0;
     }
@@ -49,7 +49,7 @@ public class IntStack {
 
 
     public static void main(String[] args) {
-        IntStack stack = new IntStack();
+        intStack stack = new intStack();
         stack.push(10);
         stack.push(20);
         stack.push(30);
